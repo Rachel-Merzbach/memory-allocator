@@ -29,5 +29,5 @@ Get the pointer to MemoryAllocator and the size to allocate. returns the new mem
 #### MemoryAllocator_free
 Merge the next adjacent block is free
 
-MemoryAllocator_optimize
+#### MemoryAllocator_optimize
 Merges all adjacent free blocks, and returns the size of largest free block
